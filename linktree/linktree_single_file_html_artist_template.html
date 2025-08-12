@@ -1,0 +1,124 @@
+<!-- Linktree HTML customized for 고우현 -->
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>고우현 – Link in bio</title>
+  <meta name="description" content="고우현의 최신 싱글, 뮤직비디오, 공연 예매, SNS 링크를 한 곳에." />
+  <meta name="theme-color" content="#8b5cf6" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="고우현 – Link in bio" />
+  <meta property="og:description" content="최신 작업과 공연 정보를 한 번에." />
+  <meta property="og:image" content="IMG_3552.JPG" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <style>
+    :root{
+      --bg: #0b0b0f;
+      --card: rgba(255,255,255,.08);
+      --text: #f8fafc;
+      --muted:#cbd5e1;
+      --accent:#8b5cf6;
+      --ring: rgba(139,92,246,.45);
+      --border: rgba(255,255,255,.14);
+    }
+    @media (prefers-color-scheme: light){
+      :root{ --bg:#fafafa; --card: rgba(0,0,0,.04); --text:#0b1220; --muted:#475569; --border: rgba(0,0,0,.12); --ring: rgba(99,102,241,.35);}  
+    }
+    *{ box-sizing: border-box }
+    html,body{ height:100% }
+    body{
+      margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, Apple SD Gothic Neo, Malgun Gothic, Helvetica, Arial, "Segoe UI Emoji";
+      background:
+        radial-gradient(1200px 800px at 10% -10%, rgba(139,92,246,.16), transparent 60%),
+        radial-gradient(1000px 600px at 100% 0%, rgba(99,102,241,.12), transparent 60%),
+        var(--bg);
+      color:var(--text);
+      line-height:1.6;
+    }
+    .wrap{ min-height:100%; display:grid; place-items:center; padding:36px 16px }
+    .card{
+      width:100%; max-width:640px; padding:28px; border-radius:22px; 
+      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
+      box-shadow: 0 20px 40px rgba(0,0,0,.25);
+      border:1px solid var(--border);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      transition: transform .2s ease;
+    }
+    .card:focus-within{ outline:none; box-shadow: 0 0 0 6px var(--ring) }
+    .profile{ display:flex; align-items:center; gap:16px; }
+    .pfp{ width:84px; height:84px; border-radius:50%; overflow:hidden; border:1px solid var(--border); box-shadow: 0 10px 24px rgba(0,0,0,.25) }
+    .pfp img{ width:100%; height:100%; object-fit:cover }
+    .title{ font-size:28px; font-weight:800; letter-spacing:-.015em; margin:0 }
+    .tagline{ margin:.25rem 0 0 0; color:var(--muted) }
+    .badge{ display:inline-flex; align-items:center; gap:.5ch; font-size:12px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; color:#fff; background: linear-gradient(90deg, var(--accent), #6366f1); padding:8px 10px; border-radius:999px; margin-top:14px; border:1px solid rgba(255,255,255,.18) }
+    .badge .dot{ width:8px; height:8px; border-radius:50%; background:#fff; opacity:.9 }
+    .links{ list-style:none; padding:0; margin:22px 0 8px 0; display:grid; gap:12px }
+    .link{ display:flex; align-items:center; justify-content:space-between; gap:14px; padding:16px 18px; border-radius:16px; text-decoration:none; border:1px solid var(--border); background: rgba(255,255,255,.03); color:var(--text); transition: transform .12s ease, background .15s ease, border-color .15s ease; }
+    .link:hover{ transform: translateY(-1.5px); background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.28) }
+    .link:focus{ outline:none; box-shadow: 0 0 0 4px var(--ring) }
+    .l-left{ display:flex; align-items:center; gap:12px }
+    .icon{ width:22px; height:22px; opacity:.95; flex:0 0 22px }
+    .label{ font-size:16px; font-weight:700; letter-spacing:.01em }
+    .sub{ display:block; font-size:12px; color:var(--muted); margin-top:2px }
+    .chip{ font-size:11px; font-weight:800; color:#fff; padding:4px 8px; border-radius:999px; background: linear-gradient(90deg, var(--accent), #6366f1); border:1px solid rgba(255,255,255,.2) }
+    .footer{ opacity:.8; color:var(--muted); font-size:12px; margin-top:18px; text-align:center }
+    .footer a{ color:inherit }
+    @media (prefers-reduced-motion: reduce){ .link:hover{ transform:none } .card{ transition:none } }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card" aria-label="고우현 링크 모음">
+      <header class="profile">
+        <div class="pfp" aria-hidden="true">
+          <img src="IMG_3552.JPG" alt="고우현 프로필"/>
+        </div>
+        <div>
+          <h1 class="title">고우현</h1>
+          <p class="tagline">노래로 마음을 잇는 싱어송라이터</p>
+          <span class="badge" aria-label="새 싱글 공개">
+            <span class="dot" aria-hidden="true"></span>
+            New single out now
+          </span>
+        </div>
+      </header>
+
+      <ul class="links" role="list">
+        <li>
+          <a class="link" href="https://open.spotify.com/artist/6gjwVY5stg36PIfnMgFHG5?si=yUBQiXkOR_y61nCTsHs1uQ" target="_blank" rel="noopener" aria-label="최신 싱글 듣기 (Spotify)">
+            <span class="l-left">🎧 <span><span class="label">최신 싱글 듣기 (Spotify)</span></span></span>
+            <span class="chip">Listen</span>
+          </a>
+        </li>
+        <li>
+          <a class="link" href="https://youtube.com/channel/UCe6mp8mho8CfUnuYG2zzK9Q?si=h_X2AwcyTPjJuZJc" target="_blank" rel="noopener" aria-label="뮤직비디오 (YouTube)">
+            <span class="l-left">📺 <span><span class="label">뮤직비디오</span></span></span>
+            <span class="chip">Watch</span>
+          </a>
+        </li>
+        <li>
+          <a class="link" href="https://www.instagram.com/u_h.yn?igsh=MWNpZTk4d2dteWlveA%3D%3D&utm_source=qr" target="_blank" rel="noopener" aria-label="Instagram">
+            <span class="l-left">📷 <span><span class="label">Instagram</span></span></span>
+            <span class="chip">Follow</span>
+          </a>
+        </li>
+        <li>
+          <a class="link" href="mailto:rhdngus3690@naver.com" aria-label="이메일 보내기">
+            <span class="l-left">📧 <span><span class="label">이메일 문의</span></span></span>
+            <span class="chip">Email</span>
+          </a>
+        </li>
+      </ul>
+
+      <footer class="footer">
+        © <span id="year"></span> 고우현. 모든 링크는 공식 계정입니다.
+      </footer>
+    </section>
+  </main>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
